@@ -1,7 +1,7 @@
 #출력
-print("hello world")
-print(1+1,"hello")
-print('1'+1,"hello")
+#print("hello world")
+#print(1,"hello")
+#print('1',"hello")
 
 #뒤에서 세기
 #print("안녕하세요"[-1])
@@ -50,13 +50,62 @@ print('1'+1,"hello")
 #print(2+2-2*2/2*2)
 #print(2-2+2/2*2+2)
 
-#그렇다면 문자연에서도 우선순위는?
+#그렇다면 문자열에서도 우선순위는?
 #print("안녕"+"하세요"*3)
 
 #문자열과 숫자를 더하면 타입에러가 난다.
 #string="문자열"
 #number=123
 #string+number
+
+#변수
+#pi=3.14159265
+#print(pi)
+
+#복합대입연산자
+#a=0
+#a+=3
+#print(a)
+
+#a=0
+#a-=3
+#print(a)
+
+#a=2
+#a*=3
+#print(a)
+
+#a=3
+#a/=3
+#print(a)
+
+#a=1
+#a**=3
+#print(a)
+
+#문자복합대입연산자
+#a="hello"
+#a+='world'
+#print(a)
+
+#a="hello"
+#a*=3
+#print(a)
+
+#입력
+string=input("입력>")
+print(string)
+print("자료형:",type(string))
+
+#string=input()
+#print(string+100)
+
+
+
+
+
+
+
 
 
 
