@@ -93,12 +93,24 @@
 #print(a)
 
 #입력
-string=input("입력>")
-print(string)
-print("자료형:",type(string))
+#string=input("입력>")
+#print(string)
+#print("자료형:",type(string))
 
+#오류!
 #string=input()
 #print(string+100)
+
+#캐스트연산자
+#a=float(input("첫번째숫자"))
+#b=float(input("두번째숫자"))
+#print(a+b)
+#print(a-b)
+#print(a*b)
+#print(a/b)
+
+
+
 
 
 
