@@ -157,11 +157,50 @@
 #print(input.strip())
 
 #find
-a="안녕안녕하세요".find("안녕")
-b="안녕안녕하세요".rfind("안녕")
+#a="안녕안녕하세요".find("안녕")
+#b="안녕안녕하세요".rfind("안녕")
+#print(a)
+#print(b)
 
-print(a)
-print(b)
+#in
+#print("안녕"in"안녕하세요")
+
+##if문
+#num=input("정수입력")
+#num=int(num)
+
+#if num>0:
+#    print("양수입니다.")
+#if num<0:
+#    print("음수입니다")
+#if num==0:
+#    print("0입니다")
+
+import datetime
+
+now=datetime.datetime.now()
+
+if now.hour < 12:
+    print("현재시간은 {}시로 오전입니다.".format(now.hour))
+if now.hour >= 12:
+    print("현재시간은 {}시로 오후입니다.".format(now.hour-12))
+
+if 3<=now.month<=5:
+    print("현재시간은 {}월로 봄입니다.".format(now.month))
+if 6<=now.month<=8:
+    print("현재시간은 {}월로 여름입니다.".format(now.month))
+if 9<=now.month<=11:
+    print("현재시간은 {}월로 가을입니다.".format(now.month))
+if now.month==12 or 1<=now.month<=2:
+    print("현재시간은 {}월로 겨울입니다.".format(now.month))
+print()
+
+   
+
+
+
+
+
 
 
 
