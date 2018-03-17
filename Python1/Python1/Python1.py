@@ -128,15 +128,40 @@
 #print("{:=+5d}".format(-52))
 #print("{:+05d}".format(52))
 #print("{:+05d}".format(-52))
-print("{:f}".format(52.123))#실수
-print("{:15f}".format(52.123))
-print("{:+15f}".format(52.123))
-print("{:+015f}".format(52.213))
+#print("{:f}".format(52.123))#실수
+#print("{:15f}".format(52.123))
+#print("{:+15f}".format(52.123))
+#print("{:+015f}".format(52.213))
+#print("{:15.3f}".format(52.123))#소수점에서 반올림
+#print("{:15.2f}".format(52.123))
+#print("{:+15.1f}".format(52.523))
+#print("{:+15.0f}".format(52.523))
+#print("{:g}".format(52.0))
 
-print("{:15.3f}".format(52.123))
-print("{:15.2f}".format(52.123))
-print("{:+15.1f}".format(52.523))
-print("{:+15.0f}".format(52.523))
+#다른 문자열 관련함수들
+#str="Hello World"
+#str_up=str.upper()
+#str_low=str.lower()
+#print(str_up)
+#print(str_low)
+
+#str_a="Hello world"
+#str_a.upper()
+#print(str_a)
+
+#공백제거함수
+#input="""
+#  안녕하세요
+#문자열 함수를 알아봅시다
+#"""
+#print(input.strip())
+
+#find
+a="안녕안녕하세요".find("안녕")
+b="안녕안녕하세요".rfind("안녕")
+
+print(a)
+print(b)
 
 
 
