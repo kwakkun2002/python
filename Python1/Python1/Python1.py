@@ -109,7 +109,35 @@
 #print(a*b)
 #print(a/b)
 
-#뭔가 이상한데...
+#format()
+#out="{},{},{},{}".format(53345,12,True,"VAL")
+#print(type(out),out)
+#"{} {}".format(1,2,3,4)#ERROR!!
+#"{} {} {}".format(1,2)
+#print("{:5d}".format(53))
+#print("{:5d}".format(-53))
+#print("{:05d}".format(43))
+#print("{:05d}".format(-43))
+#print("{:+d}".format(-43))
+#print("{:+d}".format(43))
+#print("{: d}".format(43))
+#print("{: d}".format(-43)
+#print("{:+5d}".format(52))#그냥 숫자앞에 붙인다.
+#print("{:+5d}".format(-52))
+#print("{:=+5d}".format(52))#등호는 기호를 앞으로 민다.
+#print("{:=+5d}".format(-52))
+#print("{:+05d}".format(52))
+#print("{:+05d}".format(-52))
+print("{:f}".format(52.123))#실수
+print("{:15f}".format(52.123))
+print("{:+15f}".format(52.123))
+print("{:+015f}".format(52.213))
+
+print("{:15.3f}".format(52.123))
+print("{:15.2f}".format(52.123))
+print("{:+15.1f}".format(52.523))
+print("{:+15.0f}".format(52.523))
+
 
 
 
