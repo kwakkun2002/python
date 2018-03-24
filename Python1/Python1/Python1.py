@@ -265,13 +265,41 @@
 #list_a=[0,1,2,3,4,5,5,5]
 #list_a.clear()
 #print(list_a)
-list_a=[1,2,3,4,5]
-print(1 in list_a);
-print(2 in list_a);
-print(3 in list_a);
-print(4 in list_a);
-print(5 in list_a);
-print(6 in list_a);
+#list_a=[1,2,3,4,5]
+#print(1 in list_a);
+#print(2 in list_a);
+#print(3 in list_a);
+#print(4 in list_a);
+#print(5 in list_a);
+#print(6 in list_a);
+
+#arr=[1,2,3,4,5]
+#for a in "안녕하세요":
+#    print(a)
+
+#a={
+#    "name":"7D 건조망고",
+#    "type":"당절임",
+#    "ingredient":["망고","설탕","메타중아황산나트륨"],
+#    "origin":"필리핀"
+#    }
+#print(a)
+#a["name"]="8d 건조망고"
+#a["name2"]="건조망고"
+#print(a)
+
+a={
+    "name":"7D 건조망고",
+    "type":"당절임",
+    "ingredient":["망고","설탕","메타중아황산나트륨"],
+    "origin":"필리핀"
+    }
+
+value=a.get("존재하지 않는 키")
+print("값",value)
+
+
+
 
 
 
