@@ -226,6 +226,59 @@
 #else:
 #    print("시대를 앞서 가는 혁명의 씨앗")
 
+
+#리스트
+#arr=[273,32,102,"문자열",True]
+#print(arr)
+
+#list_a=[1,2,3]
+#list_b=[4,5,6]
+
+#print(list_a)
+#print(list_b)
+#print(list_a+list_b)
+#print(list_a*3)
+#print(len(list_a))
+
+#list_a=[1,2,3]
+#print(list_a)
+
+#list_a.append(4)
+#list_a.append(5)
+
+#list_a.insert(0,10)
+#print(list_a)
+
+#list_a=[1,2,3]
+#list_a.extend([4,5,6])
+#print(list_a)
+
+#리스트함수
+#list_a=[0,1,2,3,4]
+#del list_a[1]
+#print(list_a)
+#list_a.pop(2)
+#print(list_a)
+#list_a=[1,2,1,2]
+#list_a.remove(2)
+#print(list_a)
+#list_a=[0,1,2,3,4,5,5,5]
+#list_a.clear()
+#print(list_a)
+list_a=[1,2,3,4,5]
+print(1 in list_a);
+print(2 in list_a);
+print(3 in list_a);
+print(4 in list_a);
+print(5 in list_a);
+print(6 in list_a);
+
+
+
+
+
+
+
    
 
 
