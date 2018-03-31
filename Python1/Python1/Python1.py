@@ -262,9 +262,11 @@
 #list_a=[1,2,1,2]
 #list_a.remove(2)
 #print(list_a)
+
 #list_a=[0,1,2,3,4,5,5,5]
 #list_a.clear()
 #print(list_a)
+
 #list_a=[1,2,3,4,5]
 #print(1 in list_a);
 #print(2 in list_a);
@@ -288,15 +290,71 @@
 #a["name2"]="건조망고"
 #print(a)
 
-a={
-    "name":"7D 건조망고",
-    "type":"당절임",
-    "ingredient":["망고","설탕","메타중아황산나트륨"],
-    "origin":"필리핀"
-    }
+#a={
+#    "name":"7D 건조망고",
+#    "type":"당절임",
+#    "ingredient":["망고","설탕","메타중아황산나트륨"],
+#    "origin":"필리핀"
+#    }
 
-value=a.get("존재하지 않는 키")
-print("값",value)
+#value=a.get("존재하지 않는 키")
+#print("값",value)
+
+#di={
+#    0:"alpha",
+#    1:"beta",
+#    3:"delta"
+#    }
+
+#for key in di:
+#    print(di[key])
+
+#print(range(5),list(range(5)))
+#print(range(10),list(range(10)))
+#print()
+
+#print(range(0,5),list(range(0,5)))
+#print(range(5,10),list(range(5,10)))
+#print()
+
+#print(range(0,10,2),list(range(0,10,2)))
+#print(range(0,10,3),list(range(0,10,3)))
+#print()
+
+#for i in range(10):
+#    print(str(i)+"번째 반복입니다.");
+
+#for i in range(5):
+#    print(str(i)+"반복변수")
+#print()
+
+#for i in range(5,10):
+#    print(str(i)+"반복변수")
+#print()
+
+#for i in range(0,10,3):
+#    print(str(i)+"반복변수")
+#print()
+
+#arr=[100,200,300,400,500]
+
+#for i in range(len(arr)):
+#    print("index{}:value{}".format(i,arr[i]))
+
+#for i in reversed(range(10)):
+#    print("{}번째 반복".format(i))
+
+i=0
+while i<10:
+    print("{}번째 반복입니다.".format(i))
+    i+=1
+
+
+
+
+
+
+
 
 
 
