@@ -344,15 +344,72 @@
 #for i in reversed(range(10)):
 #    print("{}번째 반복".format(i))
 
+#i=0
+#while i<10:
+#    print("{}번째 반복입니다.".format(i))
+#    i+=1
+
+#list_a=[1,2,1,2]
+#val=2
+
+#while val in list_a:
+#    list_a.remove(val)
+
+#print(list_a)
+
+
+#import time
+
+#out=0
+#target_tick=time.time()+5
+#while time.time()<target_tick:
+#    out+=1
+#print(out)
+
 i=0
-while i<10:
-    print("{}번째 반복입니다.".format(i))
-    i+=1
 
+#while True:
+#    print("{}번째 반복문입니다.".format(i))
+#    i+=1
+#    input_s=input("종료?y or Y")
+#    if input_s in ['y','Y']:
+#        print("반복을 중단합니다.")
+#        break
 
+#numbers=[5,15,6,20,7,25]
 
+#for num in numbers:
+#    if num<10:
+#        continue
+#    print(num,end=" ")
 
+#string="hello programming"
 
+#out=string.upper()
+#print(out)
+#out=string.lower()
+#print(out)
+#out=string.split(" ")
+#print(out)
+
+#list_a=[1,2,3,4]
+
+#list_a.append(1)
+#print(list_a)
+#list_a.remove(2)
+#print(list_a)
+#list_a.pop()
+#print(list_a)
+
+#test=(
+#    "a"
+#    "b"
+#    "c"
+#    )
+#print(test)
+#print(type(test))
+
+print("::".join(['1','2','3','4','5']))
 
 
 
