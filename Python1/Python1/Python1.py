@@ -467,11 +467,139 @@
 #else:
 #    print("pri")
 
-a=input()
-b=input().split()
-c=input()
+#a=input()
+#b=input().split()
+#c=input()
 
-print(b.index(c)+1)
+#print(b.index(c)+1)
+
+#def sum(a):
+#    count=0
+#    for i in range(1,a+1):
+#        count+=i
+
+#    return int(count)
+
+#print(sum(10))
+
+
+#def fac(a):
+#    count=1
+#    for i in range(2,a+1):
+#        count*=i
+
+#    return int(count)
+
+#print(fac(5))
+
+#def dividenum(a):
+#    count=1
+#    for i in dividenum(2,a+1):
+#        count*=i
+
+#    return int(count)
+
+#print(dividenum(5))
+
+#import time
+
+#input("엔터를 누르고 20초를 셉니다.")
+#start=time.time()
+
+#input("20초에 다시 엔터를 누릅니다")
+#end=time.time()
+#et=end-start
+
+#print("실제시간:",et,"초")
+#print("차이",abs(et-20),"초")
+
+#import time
+#import random
+
+#n=random.randint(1,100)
+
+#innum=int(input("1~100사이의 숫자를 맞추어보세요!  "))
+
+#while True:
+#    if innum==n:
+#        print("맞추었습니다!\n")
+#        break
+#    elif innum>n:
+#        innum=int(input("너무 큽니다! 다시 입력해주세요  "))
+#    else:
+#        innum=int(input("너무 작습니다! 다시 입력해주세요  "))
+
+import turtle as t
+import time
+import random
+
+#def draw():
+#    degree=360
+#    for x in range(100):
+#        t.bgcolor("red")
+#        t.color("blue")
+#        t.pencolor("black")
+#        t.shape("turtle")
+#        t.forward(degree/6)
+#        t.left(degree/6)
+#        degree-=30
+
+#draw()
+
+#def drawcir(n):
+#    t.circle(n)
+
+#for i in range(0,10000,20):
+#    drawcir(i)
+
+#t.speed(10)
+
+#def draw(n): 
+#    t.bgcolor("red")
+#    t.color("blue")
+#    t.pencolor("black")
+#    t.shape("turtle")
+#    t.up()
+#    t.right(90)
+#    t.forward(10)
+#    t.left(90)
+#    t.down()
+#    t.circle(n)
+
+#for i in range(0,10000,10):
+#    draw(i)
+
+
+
+#def draw(): 
+#    while True:
+#        t.setheading(random.randint(1,360))
+#        t.forward(10)
+
+
+draw()
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+
+
+
+
+
+
 
 
 
