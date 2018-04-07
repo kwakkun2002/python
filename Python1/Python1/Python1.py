@@ -366,8 +366,6 @@
 #    out+=1
 #print(out)
 
-i=0
-
 #while True:
 #    print("{}번째 반복문입니다.".format(i))
 #    i+=1
@@ -409,7 +407,77 @@ i=0
 #print(test)
 #print(type(test))
 
-print("::".join(['1','2','3','4','5']))
+#print("::".join(['1','2','3','4','5']))
+
+#number=int(input("정수입력"))
+
+#if number%2==0:
+#    print("\n".join(["입력한 문자열을 {}입니다".format(number),"{}는 짝수입니다.".format(number)]))
+#else:
+#    print("\n".join(["입력한 문자열을 {}입니다".format(number),"{}는 홀수입니다.".format(number)]))
+
+#a="문자열"
+#b={"a":"b",
+#   "c":"d"}
+#c=range(10)
+#d=True
+
+#print("list:{}={}".format(a,list(a)))
+#print("list:{}={}".format(b,list(b)))
+#print("list:{}={}".format(c,list(c)))
+#print("list:{}={}".format(d,list(d)))
+
+#learn def
+
+#def callname(name):
+#    print("hello {}".format(name))
+
+#callname("maria")
+
+
+
+#def gagup(n):
+#    return n*n
+
+#print(gagup(3))
+
+
+
+#def tri(a,b):
+#    return int(a*b/2)
+
+#print(tri(3,4))
+
+#def oddeven(a):
+#    if a%2==0:
+#        print("even")
+#    else:
+#        print("odd")
+
+#oddeven(10)
+
+#def primecom(a):
+#    for i in range(2,a):
+#        if a%i==0:
+#            return 1;
+
+#innum=int(input())
+#if primecom(innum)==1:
+#    print("com")
+#else:
+#    print("pri")
+
+a=input()
+b=input().split()
+c=input()
+
+print(b.index(c)+1)
+
+
+
+
+
+
 
 
 
