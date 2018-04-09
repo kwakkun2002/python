@@ -577,7 +577,7 @@ import random
 #        t.forward(10)
 
 
-draw()
+print("test hello world")
 
 
 
