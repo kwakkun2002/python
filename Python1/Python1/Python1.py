@@ -577,7 +577,9 @@ import random
 #        t.forward(10)
 
 
-print("test hello world")
+#print("test hello world")
+
+
 
 
 
