@@ -615,17 +615,93 @@
 #    <무조건 실행할 코드>
 
 
-input_a=input()
+#input_a=input()
 
-try:
-    num=int(input_a)
-except:
-    print("다시 입력해주세요")
-else:
-    print("원의 반지름:",num)
-    print("원의 둘레:",2*3.14*num)
-finally:
-    print("입력값은:",num)
+#try:
+#    num=int(input_a)
+#except:
+#    print("다시 입력해주세요")
+#else:
+#    print("원의 반지름:",num)
+#    print("원의 둘레:",2*3.14*num)
+#finally:
+#    print("입력값은:",num)
+
+#try:
+#    input_a=int(input())
+#except Exception as error:
+#    print(type(error))
+#    print(error)
+
+
+#list_a=[1,2,3,4,5]
+
+#try:
+#    input_a=int(input(""))
+#    print("{}번째요소:{}".format(input_a,list_a[input_a]))
+#    list(input_a)
+#except ValueError as error:
+#    print(error)
+#except IndexError as error:
+#    print(error)
+#except Exception as error:
+#    print(error)
+
+#import math 
+#import math as m
+#print(math.sin())
+
+#from math import sin,cos,tan,floor,ceil
+
+#print(sin(1))
+#print(cos(1))
+#print(tan(1))
+
+#print(floor(2.5))#내림
+#print(ceil(2.5))#올림 
+
+#import random
+
+#import sys
+
+#print(sys.getwindowsversion())
+#print(sys.copyright)
+#print(sys.version)
+
+#import os
+
+#print("현재의 운영체제는 ",os.name)
+#print("현재폴더는 ",os.getcwd())
+#print("현재폴더 내부의 요소",os.listdir())
+
+#import datetime
+#import os
+
+
+#while(True):
+#    now=datetime.datetime.now()
+#    output_a=now.strftime("%Y.%m.%d %H:%M:%S")
+#    print(output_a)
+#    os.system('cls')
+
+#now.year
+#now.month
+#now.day
+#now.hour
+#now.minute
+#now.second
+
+#import time
+
+#print("지금부터 5초간 정지")
+#time.sleep(5)
+#print("5초가 지낫어요")
+
+#import urllib
+
+#urlib.request.urlopen()
+
+
 
 
 
