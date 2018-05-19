@@ -13,7 +13,7 @@
 #문자범위선택연산자
 #print("#문자범위선택연산자")
 #print("안녕하세요"[0:5])
-#print("안녕하세요"[1:5])
+#print("안녕하세요"[1:5]) 
 #print("안녕하세요"[2:5])
 
 #문자열의 길이 변환
@@ -246,7 +246,7 @@
 #list_a.append(4)
 #list_a.append(5)
 
-#list_a.insert(0,10)
+#list_a.insert(4,10)
 #print(list_a)
 
 #list_a=[1,2,3]
@@ -529,9 +529,9 @@
 #    else:
 #        innum=int(input("너무 작습니다! 다시 입력해주세요  "))
 
-import turtle as t
-import time
-import random
+#import turtle as t
+#import time
+#import random
 
 #def draw():
 #    degree=360
@@ -578,6 +578,60 @@ import random
 
 
 #print("test hello world")
+
+#튜플
+#a=(10,20,30)
+#print(a,type(a))
+
+
+#list_a=[1,2,3,4,5]
+
+#list_b=list(map(lambda x:x*x,list_a))
+#print(list_b)
+#list_b=list(filter(lambda x:x<3,list_a))
+#print(list_b)
+
+
+#map(<함수명>,<리스트>)
+#filter(<함수명>,<리스트>)
+
+#input_a=input("")
+
+#if input_a.isdigit():
+#    num=int(input_a)
+#    print("원의 반지름:",num)
+#    print("원의 둘레:",2*3.14*num)
+#else:
+#    print("다시 입력해주세요")
+
+
+#try:
+#    <예외가 발생할수 있는 코드>
+#except:
+#    <예외 발생시 대처 코드>
+#else:
+#    <예외가 발생하지 않았을때의 코드>
+#finally:
+#    <무조건 실행할 코드>
+
+
+input_a=input()
+
+try:
+    num=int(input_a)
+except:
+    print("다시 입력해주세요")
+else:
+    print("원의 반지름:",num)
+    print("원의 둘레:",2*3.14*num)
+finally:
+    print("입력값은:",num)
+
+
+
+
+
+
 
 
 
