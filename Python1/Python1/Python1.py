@@ -10,6 +10,10 @@
 #print("안녕하세요"[-4])
 #print("안녕하세요"[-5])
 
+#a="안녕하세요 세상!"
+#for i in reversed(a):
+#    print(i,end="")
+
 #문자범위선택연산자
 #print("#문자범위선택연산자")
 #print("안녕하세요"[0:5])
@@ -566,6 +570,8 @@
 #    t.down()
 #    t.circle(n)
 
+#draw(12)
+
 #for i in range(0,10000,10):
 #    draw(i)
 
@@ -697,9 +703,29 @@
 #time.sleep(5)
 #print("5초가 지낫어요")
 
-#import urllib
+#import urllib2  몰라안되
 
-#urlib.request.urlopen()
+#url="http://www.naver.com"
+
+#req=urllib2.Request(url)
+#fp=urllib2.urlopen(req)
+#s=fp.read()
+#fp.close()
+
+class people:
+    def walk():
+        print("걷기")
+
+a=people()
+people.walk()
+print(type(a))
+
+people=[]
+
+for i in range(10):
+    people.append(class(people()))
+
+
 
 
 
