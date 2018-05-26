@@ -712,98 +712,30 @@
 #s=fp.read()
 #fp.close()
 
-class people:
-    pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+class student:
+    def __init__(self,name,score,score1):
+        self.name=name
+        self.score=score
+        self.score1=score1
+
+    def get_sum(self):
+        return self.score+self.score1
+
+    def get_avg(self):
+        return self.get_sum()//2
+
+    def __del__(self):
+        print("class end")
+
+a=[]
+for i in range(3):
+    name=input()
+    score,score1=input().split(" ")
+    score=int(score)
+    score1=int(score1)
+    a.append(student(name,score,score1))
+
+for i in a:
+    print(i.get_avg())
+    print(i.get_sum(),'\n')
+    
