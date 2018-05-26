@@ -713,17 +713,11 @@
 #fp.close()
 
 class people:
-    def walk():
-        print("걷기")
+    pass
 
-a=people()
-people.walk()
-print(type(a))
 
-people=[]
 
-for i in range(10):
-    people.append(class(people()))
+
 
 
 
